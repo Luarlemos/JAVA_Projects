@@ -43,5 +43,4 @@ public class Cliente {
 	public void setData_nascimento(LocalDate data_nascimento) {
 		this.data_nascimento = data_nascimento;
 	}
-	
 }

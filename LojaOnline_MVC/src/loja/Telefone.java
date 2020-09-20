@@ -26,5 +26,4 @@ public class Telefone{
 	public int getFk_cliente() {
 		return fk_cliente;
 	}
-	
 }
