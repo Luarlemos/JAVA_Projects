@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.dh.empresaSpring.model.entities.Cliente;
 import br.com.dh.empresaSpring.model.repositories.ClienteRepository;
 
-
 @RestController
 @RequestMapping(path = "cliente")
 public class ClienteController {

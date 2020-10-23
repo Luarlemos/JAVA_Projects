@@ -41,5 +41,4 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 			.antMatchers("/funcionario/editar/{idFuncionario}").hasRole("GERENTE")
 			.and().httpBasic();
 	}
-	
 }
